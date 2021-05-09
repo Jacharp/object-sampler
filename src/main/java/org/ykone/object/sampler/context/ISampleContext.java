@@ -37,7 +37,7 @@ public interface ISampleContext {
 	}
 	
 	/**
-	 * List of customs to use during sampling
+	 * List of custom samplers to use during sampling
 	 * If a custom sampler is defined it will be used instead of predefined sampler
 	 */
 	default List<ISampler<?>> getCustomSamplers(){
